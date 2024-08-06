@@ -1,0 +1,224 @@
+html {
+    background-color: #c0d6e7;
+    font-family: "Montserrat", sans-serif;
+}
+
+header {
+    background-color: #03346E;
+    color: white;
+    padding: 1rem 2rem;
+    border: 1px;
+    border-radius: 10px;
+}
+
+header div p {
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    font-size: 45px;
+    margin: 5px 0 0 0;
+}
+
+.img {
+    width: 20px;
+    height: 20px;
+    margin: 1px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.telefono, .correo {
+    float: left;
+}
+
+.telefono {
+    margin-right: 1.5rem;
+}
+
+.izq {
+    float: left;
+}
+
+.der {
+    float: right;
+}
+
+#titulo {
+    margin: 30px 0 0 0;
+}
+
+.logo {
+    width: 200px; /* por el ancho de las imagenes */
+    border-radius: 18px;
+    box-shadow: 0.3rem 0.3rem 0.2rem rgb(0, 0, 0);   
+    margin: 0 auto; /* para centrar */ 
+    margin-top: 10px;
+}
+
+article{
+    margin: 6rem 0 0 0;
+}
+
+/* ------------------------------------------------------- */
+
+.uno {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px 0;
+}
+
+h2 {
+    font-size: 35px;
+    margin: 1rem 70px;
+}
+
+.uno .texto {
+    text-align: center;
+    width: auto;
+}
+
+.texto {
+    margin: 0 16rem;
+}
+
+.uno img {
+    width: 35rem;
+    margin: 0;
+}
+
+.uno p {
+    font-size: 25px;
+    text-align: justify;
+}
+
+.primero {
+    align-items: center;
+}
+
+div.texto {
+    margin: 0 40px;
+}
+
+.trofeo {
+    border-radius: 3px;
+    box-shadow: 0.2rem 0.2rem 0.2rem rgba(108, 108, 108);
+    
+}
+
+/* ------------------------------------------------------- */
+
+.dos h2 {
+    margin: 0 auto;
+    text-align: center; /* Centrar el texto del título */
+}
+
+.escudos {
+    display: flex;
+    justify-content: center; /* Centra las celdas de la tabla horizontalmente */
+    margin: 10px 0 0 0;
+}
+
+table {
+    margin: 0 auto;
+}
+
+table td {
+    padding: 0px 10px;
+}
+
+table img {
+    width: 150px; /* Ajusta el tamaño de las imágenes según sea necesario */
+    padding: 20px;  
+}
+
+.esc { 
+    transition: all 0.5s ease;
+}
+
+.esc:hover {
+    box-shadow: 0.1rem 0.1rem 0.3rem rgb(8, 17, 104);
+}
+
+/* ------------------------------------------------------- */
+
+.texto3{
+    text-align: justify;
+    font-size: 25px;
+    margin: 0.5rem 3rem;
+}
+
+/* ------------------------------------------------------- */
+
+.texto4{
+    text-align: justify;
+    font-size: 25px;
+    margin: 0.5rem 3rem;
+}
+
+.campo{
+    display: flex;
+    float: right;
+    width: 600px;
+    height: 350px;
+    margin: 0.5rem 2rem 0 2.5rem;
+    border-radius: 3px;
+    box-shadow: 0.2rem 0.2rem 0.2rem rgba(108, 108, 108);
+
+}
+
+/* ------------------------------------------------------- */
+section {
+    margin: 0 auto;
+    display: flex; 
+    text-align: center; /* Centrar el texto del título */
+    width: 100%;
+    height: 430px;
+}
+section img {
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .4s ease;
+}
+section img:hover {
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+/* ------------------------------------------------------- */
+
+footer {
+    margin: 1rem 0 0 0;
+    background-color: #364552;
+    padding: 3rem;
+    color: #fff;
+}
+
+footer section {
+    float: right;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    transition: color 0.3s ease;
+    color: #dad9d9;
+    text-decoration: none;
+}
+footer a:hover {
+    color: cornflowerblue;
+}
+
+footer div p{
+    text-align: center;
+    margin: 1rem 0 0 0;
+}
