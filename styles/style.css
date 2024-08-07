@@ -1,11 +1,9 @@
 html {
-    flex-grow: 1;
     background-color: #c0d6e7;
     font-family: "Montserrat", sans-serif;
 }
 
 header {
-    flex-grow: 1;
     background-color: #03346E;
     color: white;
     padding: 1rem 2rem;
@@ -120,10 +118,9 @@ div.texto {
 }
 
 .escudos {
-    flex-grow: 1;   
-    display: flex;
+    display: block;
     justify-content: center; /* Centra las celdas de la tabla horizontalmente */
-    margin: 10px 0 0 2px;
+    margin: 3remx 0 0 0.1rem;
     padding: 0.2rem;
 }
 
@@ -132,7 +129,7 @@ table {
 }
 
 table td {
-    padding: 0px 1rem;
+    padding: 0rem 1rem;
 }
 
 table img {
