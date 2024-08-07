@@ -120,9 +120,14 @@ div.texto {
 .escudos {
     display: block;
     justify-content: center; /* Centra las celdas de la tabla horizontalmente */
-    margin: 3remx 0 0 0.1rem;
-    padding: 0.2rem;
+    margin: 1rem 3rem;
+    /* padding: 0.2rem; */
 }
+
+td {
+    width: 16rem;
+}
+
 
 table {
     margin: 0 auto;
@@ -131,6 +136,7 @@ table {
 table td {
     padding: 0rem 1rem;
 }
+
 
 table img {
     width: 9rem; /* Ajusta el tamaño de las imágenes según sea necesario */
