@@ -1,9 +1,11 @@
 html {
+    flex-grow: 1;
     background-color: #c0d6e7;
     font-family: "Montserrat", sans-serif;
 }
 
 header {
+    flex-grow: 1;
     background-color: #03346E;
     color: white;
     padding: 1rem 2rem;
@@ -118,6 +120,7 @@ div.texto {
 }
 
 .escudos {
+    flex-grow: 1;   
     display: flex;
     justify-content: center; /* Centra las celdas de la tabla horizontalmente */
     margin: 10px 0 0 2px;
