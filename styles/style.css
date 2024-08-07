@@ -108,7 +108,6 @@ div.texto {
 .trofeo {
     border-radius: 3px;
     box-shadow: 0.2rem 0.2rem 0.2rem rgba(108, 108, 108);
-    
 }
 
 /* ------------------------------------------------------- */
@@ -121,7 +120,8 @@ div.texto {
 .escudos {
     display: flex;
     justify-content: center; /* Centra las celdas de la tabla horizontalmente */
-    margin: 10px 0 0 0;
+    margin: 10px 0 0 2px;
+    padding: 1px;
 }
 
 table {
