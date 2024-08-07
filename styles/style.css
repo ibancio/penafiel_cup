@@ -66,7 +66,7 @@ article{
 /* ------------------------------------------------------- */
 
 .uno {
-    display: flex;
+    display:flex;
     align-items: center;
     justify-content: space-between;
     margin: 40px 0;
@@ -75,21 +75,22 @@ article{
 h2 {
     font-family:Verdana, Geneva, Tahoma, sans-serif ;
     font-size: 35px;
-    margin: 1rem 70px;
+    margin: 1rem 5rem;
 }
 
 .uno .texto {
     text-align: center;
     width: auto;
+    
 }
 
 .uno img {
-    width: 35rem;
+    width: 40rem;
     margin: 0;
 }
 
 .uno p {
-    font-size: 25px;
+    font-size: 2rem;
     text-align: justify;
 }
 
@@ -98,7 +99,7 @@ h2 {
 }
 
 div.texto {
-    margin: 0 40px;
+    margin: 0 3rem;
 }
 
 .trofeo {
