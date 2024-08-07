@@ -121,7 +121,7 @@ div.texto {
     display: flex;
     justify-content: center; /* Centra las celdas de la tabla horizontalmente */
     margin: 10px 0 0 2px;
-    padding: 1px;
+    padding: 0.2rem;
 }
 
 table {
@@ -129,12 +129,12 @@ table {
 }
 
 table td {
-    padding: 0px 10px;
+    padding: 0px 1rem;
 }
 
 table img {
     width: 9rem; /* Ajusta el tamaño de las imágenes según sea necesario */
-    padding: 20px;  
+    padding: 1rem;  
 }
 
 .esc { 
