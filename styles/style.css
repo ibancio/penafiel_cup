@@ -1,3 +1,4 @@
+
 html {
     background-color: #c0d6e7;
     font-family: "Montserrat", sans-serif;
@@ -8,7 +9,11 @@ header {
     color: white;
     padding: 1rem 2rem;
     border: 1px;
-    border-radius: 10px;
+    border-radius: 10px;    
+}
+
+article {
+    margin: 1rem;
 }
 
 header div p {
@@ -63,48 +68,33 @@ article{
     margin: 6rem 0 0 0;
 }
 
-/* ------------------------------------------------------- */
-
-.uno {
-    display:flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 40px 0;
-}
-
 h2 {
-    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    font-family:Verdana, Tahoma, sans-serif ;
     font-size: 35px;
     margin: 1rem 5rem;
 }
 
-.uno .texto {
-    text-align: center;
-    width: auto;
-    
-}
+/* ------------------------------------------------------- */
 
-.uno img {
-    width: 40rem;
-    margin: 0;
-}
-
-.uno p {
-    font-size: 2rem;
+.texto{
     text-align: justify;
+    font-size: 25px;
+    margin: 0.5rem 1rem;
 }
 
-.primero {
-    align-items: center;
+.texto h2{
+    text-align: center;
 }
 
-div.texto {
-    margin: 0 3rem;
-}
-
-.trofeo {
+.trofeo{
+    display: flex;
+    float: left;
+    width: 35rem;
+    height: 25rem;
+    margin: 0.5rem 2rem 0 2.5rem;
     border-radius: 3px;
     box-shadow: 0.2rem 0.2rem 0.2rem rgba(108, 108, 108);
+
 }
 
 /* ------------------------------------------------------- */
@@ -117,23 +107,18 @@ div.texto {
 .escudos {
     display: block;
     justify-content: center; /* Centra las celdas de la tabla horizontalmente */
-    margin: 1rem 3rem;
-    /* padding: 0.2rem; */
+    margin: 1rem;
 }
 
 td {
     width: 16rem;
+    padding: 0rem 1rem;
 }
 
 
 table {
     margin: 0 auto;
 }
-
-table td {
-    padding: 0rem 1rem;
-}
-
 
 table img {
     width: 9rem; /* Ajusta el tamaño de las imágenes según sea necesario */
@@ -176,6 +161,11 @@ table img {
 }
 
 /* ------------------------------------------------------- */
+
+.spo{
+    text-align: center;
+}
+
 section {
     margin: 0 auto;
     display: flex; 
